@@ -176,7 +176,7 @@ function listMovie(args) {
 
 	  		// console.log(JSON.stringify(movie, null, 2));
 
-	  	
+	  		logData('Title' + movie.Title);
 		}  
 		liriListen();	
 	});
@@ -241,7 +241,13 @@ function listTweets(args) {
 	});
 }
 
-
+function logData(str) {
+	fs.appendFile('liri.txt', '<p>' + str + '</p>', function(error){
+		if (error) {
+			return console.error(error);
+		}	
+	});
+}
 
 function logCmd(args){
 	//Open log file and count number of lines
