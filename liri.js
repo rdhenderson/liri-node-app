@@ -201,6 +201,26 @@ function listTweets(args) {
 	});
 }
 
+//Superceded by log.js.  KEEP IF CANNOT RESOLVE ASYNCH callback issue
+// function logData(str) {
+// 	fs.appendFile('liri.txt', '<p>' + str + '</p>', function(error){
+// 		if (error) {
+// 			return console.error(error);
+// 		}	
+// 	});
+// }
+
+// function logCmd(args){
+// 	//Open log file and count number of lines
+// 	var data = fs.readFileSync('log.txt');
+// 	var lines = data.toString().split('\n').length-1;
+// 	fs.appendFile('log.txt', lines+ ') ' + args.join(' ') + '\n', function(error){
+// 		if (error) {
+// 			return console.error(error);
+// 		}	
+// 	});
+// }
+
 //=============================================
 
 
