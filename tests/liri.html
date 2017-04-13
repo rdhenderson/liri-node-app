@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Liri Log Updates</title>
+</head>
+<body>
+<h1> Welcome to a simple web page served from Node.js </h1>
+
+<h2> Movies: </h2>
+<p>Title: The Bodyguard</p>
+<p>Title: And the Band Played On</p>
+</body>
+
+<script type="text/javascript">
+
+	queryURL = "http:/localhost:8080?sparkle=yes&bob=no";
+    $.ajax({
+      url: queryURL,
+      method: "GET"
+    }).done(function(response) {
+    	console.log('response', response);
+	});
+
+
+
+</script>
+</html>

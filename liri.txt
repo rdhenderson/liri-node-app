@@ -1,1 +1,6 @@
-<h1> Welcome to a simple web page served from Node.js </h1><p>TitleThe Bodyguard</p>
+<h1> Welcome to a simple web page served from Node.js </h1>
+
+<p>Title: The Bodyguard</p>
+<p>Title: And the Band Played On</p><p>Banana Pancakes</p><p>TitleDances with Wolves</p><p>I Want It That Way</p><p>Testing testing. 1 2 3?
+Sun Apr 09 02:17:03 +0000 2017</p><p>Testing testing. 1 2 3?
+Sun Apr 09 02:17:03 +0000 2017</p>
